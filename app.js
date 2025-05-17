@@ -6,8 +6,9 @@
 // let oxirgiSon = a % 10;
 
 // if (
-//   (birinchiSon < ikkinchiSon && ikkinchiSon < oxirgiSon) ||
-//   (birinchiSon > ikkinchiSon && ikkinchiSon > oxirgiSon)
+//   birinchiSon !== ikkinchiSon &&
+//   ikkinchiSon !== oxirgiSon &&
+//   birinchiSon !== oxirgiSon
 // ) {
 //   console.log(true);
 // } else {
@@ -34,20 +35,16 @@
 // console.log(result);
 
 /*5. */
-// function inverseNumber(N) {
-//     let result = 0;
-//     for (; N > 0; N = parseInt(N / 10)) {
-//       let digit = N % 10;
-//       result = result * 10 + digit;
-//     }
-//     return result;
+// function isPalindrom(n) {
+//   if (n <= 0) {
+//     return false;
 //   }
-
-//   function isPalindrom(N) {
-//     return N === inverseNumber(N);
-//   }
-
-//   console.log(isPalindrom(1678761));
+//   const str = n.toString();
+//   const reversed=str.split('').reverse().join('')
+//   const result=str===reversed
+//   return result
+// }
+// console.log(isPalindrom(1331));
 
 /*6. */
 
