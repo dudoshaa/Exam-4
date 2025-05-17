@@ -63,42 +63,44 @@
 
 /*7. */
 
-// const rightAnswers = {
-//   1: "B",
-//   2: "A",
-//   3: "C",
-//   4: "D",
-//   5: "B",
-//   6: "C",
-//   7: "A",
-//   8: "D",
-//   9: "A",
-//   10: "B",
-// };
-// const myAnswers = {
-//   1: "C",
-//   2: "A",
-//   3: "D",
-//   4: "D",
-//   5: "B",
-//   6: "C",
-//   7: "B",
-//   8: "C",
-//   9: "A",
-//   10: "C",
-// };
+const rightAnswers = {
+  1: "B",
+  2: "A",
+  3: "C",
+  4: "D",
+  5: "B",
+  6: "C",
+  7: "A",
+  8: "D",
+  9: "A",
+  10: "B",
+};
+const myAnswers = {
+  1: "C",
+  2: "A",
+  3: "D",
+  4: "D",
+  5: "B",
+  6: "C",
+  7: "B",
+  8: "C",
+  9: "A",
+  10: "C",
+};
 
-// let correctCount = 0;
+let correctCount = 0;
 
-// let incorrectCount = 0;
+let incorrectCount = 0;
 
-// for (let question in rightAnswers) {
-//   if (rightAnswers[question] == myAnswers[question]) {
-//     correctCount++;
-//   } else [incorrectCount++];
-// }
-// console.log(`To'g'ri javoblar soni: ${correctCount} ta`);
-// console.log(`Noto'g'ri javoblar soni: ${incorrectCount} ta`);
+for (let question in rightAnswers) {
+  if (rightAnswers[question] == myAnswers[question]) {
+    correctCount++;
+  } else {
+    incorrectCount++;
+  }
+}
+console.log(`To'g'ri javoblar soni: ${correctCount} ta`);
+console.log(`Noto'g'ri javoblar soni: ${incorrectCount} ta`);
 
 /*8. */
 
